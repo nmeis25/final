@@ -1,0 +1,39 @@
+README – Task 2: Secure File Exchange Using RSA + AES
+
+Overview This task demonstrates a hybrid encryption process where Alice
+sends a protected file to Bob using AES-256 for file encryption and
+RSA-2048 for securing the AES key. This version intentionally shows an
+integrity check failure, meaning the decrypted file does not match the
+original.
+
+Process Explanation 1. Bob Generates RSA Keys Bob creates an RSA key
+pair: - public.pem – shared with Alice - private.pem – kept secret
+
+2.  Alice Creates a Plaintext File Alice writes her message into
+    alice_message.txt.
+
+3.  Alice Generates AES-256 Key and IV Alice creates a 32‑byte AES key
+    and a 16‑byte IV.
+
+4.  Alice Encrypts the File Using AES-256 The file is encrypted and
+    stored as encrypted_file.bin.
+
+5.  Alice Encrypts the AES Key Using RSA The AES key is encrypted with
+    Bob’s public key and stored as aes_key_encrypted.bin.
+
+6.  Bob Decrypts the AES Key Bob uses his private key to recover the AES
+    key.
+
+7.  Bob Decrypts the Encrypted File Bob produces decrypted_message.txt.
+
+8.  Integrity Verification (Intentional FAIL) The SHA‑256 hash of
+    alice_message.txt does not match the hash of decrypted_message.txt.
+    INTEGRITY CHECK: FAIL
+
+AES vs RSA – Comparison AES: fast, ideal for large data. RSA: slow,
+ideal for encrypting keys. Hybrid encryption combines the strengths of
+both.
+
+Deliverables - alice_message.txt - encrypted_file.bin -
+aes_key_encrypted.bin - decrypted_message.txt (modified or altered) -
+public.pem - private.pem - README.txt
