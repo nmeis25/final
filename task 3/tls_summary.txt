@@ -1,0 +1,39 @@
+Task 3 — TLS Communication Inspection & Analysis 
+
+1.  Environment
+
+-   Client system: Windows 10, using Git Bash + OpenSSL
+-   Browser: Opera
+-   TLS capture tool: Wireshark
+-   Target domains: example.com, speeddials.opera.com, weather.opera…
+
+2.  OpenSSL s_client Results Protocol : TLSv1.3 Cipher :
+    TLS_AES_256_GCM_SHA384
+
+3.  Certificate Chain Leaf Certificate: Subject: *.example.com Issuer:
+    DigiCert Global G3 TLS ECC SHA384 2020 CA1 Validity: Jan 15 2025 –
+    Jan 15 2026 Key: EC P-256
+
+Intermediate: Subject: DigiCert Global G3 TLS ECC SHA384 2020 CA1
+Issuer: DigiCert Global Root G3
+
+Verification: Verify return code: 0 (ok)
+
+4.  Wireshark TLS Handshake ClientHello:
+
+-   Destination IP: 82.145.216.16
+-   SNI: speeddials.opera.com
+-   TLS versions: includes TLS 1.3
+-   Key Share: x25519
+-   Cipher suites: AES_256_GCM_SHA384, CHACHA20, AES_128_GCM
+
+ServerHello: - TLS 1.3 - Cipher: AES_256_GCM_SHA384 - Key Share: x25519
+
+All following packets: Encrypted Application Data.
+
+5.  Security Properties Confidentiality: AES-256-GCM Integrity: GCM
+    authentication Authentication: Valid DigiCert chain Forward secrecy:
+    x25519 ephemeral keys
+
+6.  Conclusion The TLS session is modern and secure, using TLS 1.3,
+    AES-GCM, ECDHE (x25519), and valid certificate chain.

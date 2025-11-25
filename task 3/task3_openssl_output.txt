@@ -1,0 +1,159 @@
+CONNECTED(000001BC)
+---
+Certificate chain
+ 0 s:C=US, ST=California, L=Los Angeles, O=Internet Corporation for Assigned Names and Numbers, CN=*.example.com
+   i:C=US, O=DigiCert Inc, CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1
+   a:PKEY: EC, (prime256v1); sigalg: ecdsa-with-SHA384
+   v:NotBefore: Jan 15 00:00:00 2025 GMT; NotAfter: Jan 15 23:59:59 2026 GMT
+-----BEGIN CERTIFICATE-----
+MIIFmzCCBSGgAwIBAgIQCtiTuvposLf7ekBPBuyvmjAKBggqhkjOPQQDAzBZMQsw
+CQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMTMwMQYDVQQDEypEaWdp
+Q2VydCBHbG9iYWwgRzMgVExTIEVDQyBTSEEzODQgMjAyMCBDQTEwHhcNMjUwMTE1
+MDAwMDAwWhcNMjYwMTE1MjM1OTU5WjCBjjELMAkGA1UEBhMCVVMxEzARBgNVBAgT
+CkNhbGlmb3JuaWExFDASBgNVBAcTC0xvcyBBbmdlbGVzMTwwOgYDVQQKEzNJbnRl
+cm5ldCBDb3Jwb3JhdGlvbiBmb3IgQXNzaWduZWQgTmFtZXMgYW5kIE51bWJlcnMx
+FjAUBgNVBAMMDSouZXhhbXBsZS5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
+AASaSJeELWFsCMlqFKDIOIDmAMCH+plXDhsA4tiHklfnCPs8XrDThCg3wSQRjtMg
+cXS9k49OCQPOAjuw5GZzz6/uo4IDkzCCA48wHwYDVR0jBBgwFoAUiiPrnmvX+Tdd
++W0hOXaaoWfeEKgwHQYDVR0OBBYEFPDBajIN7NrH6o/NDW0ZElnRvnLtMCUGA1Ud
+EQQeMByCDSouZXhhbXBsZS5jb22CC2V4YW1wbGUuY29tMD4GA1UdIAQ3MDUwMwYG
+Z4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQ
+UzAOBgNVHQ8BAf8EBAMCA4gwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMC
+MIGfBgNVHR8EgZcwgZQwSKBGoESGQmh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9E
+aWdpQ2VydEdsb2JhbEczVExTRUNDU0hBMzg0MjAyMENBMS0yLmNybDBIoEagRIZC
+aHR0cDovL2NybDQuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsRzNUTFNFQ0NT
+SEEzODQyMDIwQ0ExLTIuY3JsMIGHBggrBgEFBQcBAQR7MHkwJAYIKwYBBQUHMAGG
+GGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBRBggrBgEFBQcwAoZFaHR0cDovL2Nh
+Y2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsRzNUTFNFQ0NTSEEzODQy
+MDIwQ0ExLTIuY3J0MAwGA1UdEwEB/wQCMAAwggF7BgorBgEEAdZ5AgQCBIIBawSC
+AWcBZQB0AA5XlLzzrqk+MxssmQez95Dfm8I9cTIl3SGpJaxhxU4hAAABlGd6v8cA
+AAQDAEUwQwIfJBcPWkx80ik7uLYW6OGvNYvJ4NmOR2RXc9uviFPH6QIgUtuuUenH
+IT5UNWJffBBRq31tUGi7ZDTSrrM0f4z1Va4AdQBkEcRspBLsp4kcogIuALyrTygH
+1B41J6vq/tUDyX3N8AAAAZRnesAFAAAEAwBGMEQCIHCu6NgHhV1Qvif/G7BHq7ci
+MGH8jdch/xy4LzrYlesXAiByMFMvDhGg4sYm1MsrDGVedcwpE4eN0RuZcFGmWxwJ
+cgB2AEmcm2neHXzs/DbezYdkprhbrwqHgBnRVVL76esp3fjDAAABlGd6wBkAAAQD
+AEcwRQIgaFh67yEQ2lwgm3X16n2iWjEQFII2b2fpONtBVibZVWwCIQD5psqjXDYs
+IEb1hyh0S8bBN3O4u2sA9zisKIlYjZg8wjAKBggqhkjOPQQDAwNoADBlAjEA+aaC
+RlPbb+VY+u4avPyaG7fvUDJqN8KwlrXD4XptT7QL+D03+BA/FUEo3dD1iz37AjBk
+Y3jhsuLAW7pWsDbtX/Qwxp6kNsK4jh1/RjvV/260sxQwM/GM7t0+T0uP2L+Y12U=
+-----END CERTIFICATE-----
+ 1 s:C=US, O=DigiCert Inc, CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1
+   i:C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G3
+   a:PKEY: EC, (secp384r1); sigalg: ecdsa-with-SHA384
+   v:NotBefore: Apr 14 00:00:00 2021 GMT; NotAfter: Apr 13 23:59:59 2031 GMT
+-----BEGIN CERTIFICATE-----
+MIIDeTCCAv+gAwIBAgIQCwDpLU1tcx/KMFnHyx4YhjAKBggqhkjOPQQDAzBhMQsw
+CQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cu
+ZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMzAe
+Fw0yMTA0MTQwMDAwMDBaFw0zMTA0MTMyMzU5NTlaMFkxCzAJBgNVBAYTAlVTMRUw
+EwYDVQQKEwxEaWdpQ2VydCBJbmMxMzAxBgNVBAMTKkRpZ2lDZXJ0IEdsb2JhbCBH
+MyBUTFMgRUNDIFNIQTM4NCAyMDIwIENBMTB2MBAGByqGSM49AgEGBSuBBAAiA2IA
+BHipnHWuiF1jpK1dhtgQSdavklljQyOF9EhlMM1KNJWmDj7ZfAjXVwUoSJ4Lq+vC
+05ae7UXSi4rOAUsXQ+Fzz21zSDTcAEYJtVZUyV96xxMH0GwYF2zK28cLJlYujQf1
+Z6OCAYIwggF+MBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFIoj655r1/k3
+XfltITl2mqFn3hCoMB8GA1UdIwQYMBaAFLPbSKT5ocXYrjZBzBFjaWIpvEvGMA4G
+A1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwdgYI
+KwYBBQUHAQEEajBoMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5j
+b20wQAYIKwYBBQUHMAKGNGh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdp
+Q2VydEdsb2JhbFJvb3RHMy5jcnQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cDovL2Ny
+bDMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdEczLmNybDA9BgNVHSAE
+NjA0MAsGCWCGSAGG/WwCATAHBgVngQwBATAIBgZngQwBAgEwCAYGZ4EMAQICMAgG
+BmeBDAECAzAKBggqhkjOPQQDAwNoADBlAjB+Jlhu7ojsDN0VQe56uJmZcNFiZU+g
+IJ5HsVvBsmcxHcxyeq8ickBCbmWE/odLDxkCMQDmv9auNIdbP2fHHahv1RJ4teaH
+MUSpXca4eMzP79QyWBH/OoUGPB2Eb9P1+dozHKQ=
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=C=US, ST=California, L=Los Angeles, O=Internet Corporation for Assigned Names and Numbers, CN=*.example.com
+issuer=C=US, O=DigiCert Inc, CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: ecdsa_secp256r1_sha256
+Peer Temp Key: X25519, 253 bits
+---
+SSL handshake has read 2722 bytes and written 1631 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 256 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 7870F262BEE25097DE813364632D9024B0757D4487D13083F8C1C8B73A3BDD9B
+    Session-ID-ctx: 
+    Resumption PSK: 83787AA2EF09124EC1AED0123611AFDD42CBF0F3ED114BACB37553652BC2AA040BDA400FFADA597F709C2957531D4F09
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 83100 (seconds)
+    TLS session ticket:
+    0000 - 00 02 0d ff 27 d6 a0 ae-f2 7d c8 3f 21 be aa e2   ....'....}.?!...
+    0010 - 03 2c d2 96 69 8b 21 4d-bb e4 da c9 83 11 a8 b5   .,..i.!M........
+    0020 - c9 e2 ef 94 41 fe e2 98-bf 54 4c c2 e6 31 53 56   ....A....TL..1SV
+    0030 - 8f 1d 72 68 aa 57 95 f9-78 3d 99 6d 83 bf 09 e3   ..rh.W..x=.m....
+    0040 - ff 1a ce e6 f2 6c a7 8f-85 28 e3 0c d4 21 bf a7   .....l...(...!..
+    0050 - e3 8c 3a e7 cc 4c 38 9c-95 9d 33 51 63 ac 9d bd   ..:..L8...3Qc...
+    0060 - aa 61 64 30 c0 45 d7 b6-8f 74 81 a4 95 ba f1 64   .ad0.E...t.....d
+    0070 - c3 d2 cb ed ed 19 28 87-d2 46 22 73 d9 c0 c4 a4   ......(..F"s....
+    0080 - 15 86 9f db e8 6a 9d 83-87 36 4a 2d b2 7b a0 87   .....j...6J-.{..
+    0090 - 8d ab 65 f2 fc e1 ba 7b-50 9e e4 42 2e 52 02 1a   ..e....{P..B.R..
+    00a0 - fe 04 37 9e a5 36 a2 e4-42 94 2f 7b f3 86 5c 3a   ..7..6..B./{..\:
+    00b0 - ec 9f 06 e4 b5 84 d6 67-8d de 96 3c 00 52 70 82   .......g...<.Rp.
+    00c0 - 61 2d ad 7c 83 86 9b 84-7c f7 13 ec ca c3 4d f5   a-.|....|.....M.
+    00d0 - 01 f8 9f 6d 39 b2 94 b6-d2 d7 13 ec 8e 7d 98 e2   ...m9........}..
+    00e0 - c5 b3 79 08 4d 7f ea 93-5d 35 73 16 2a 8d 69 0d   ..y.M...]5s.*.i.
+
+    Start Time: 1763726690
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: CA591E2F036F930715276088922D735D20101570351F90366207C022F56AC1F6
+    Session-ID-ctx: 
+    Resumption PSK: A99756B22EE2AF8DF64849A090441866D63A3E3AFB0BF1A4182166035BA60A5D3F4A47D602C0E5D74A69477ADD450564
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 83100 (seconds)
+    TLS session ticket:
+    0000 - 00 02 0d ff 27 d6 a0 ae-f2 7d c8 3f 21 be aa e2   ....'....}.?!...
+    0010 - 87 e9 f0 06 5a 05 b5 20-e0 f0 7e 5c 02 85 df 28   ....Z.. ..~\...(
+    0020 - 6e 9a f8 a2 ac b9 2b 3f-31 e7 3e 22 45 82 64 12   n.....+?1.>"E.d.
+    0030 - bf 57 22 fe 80 63 a3 67-a8 fa da b7 55 47 fb 3d   .W"..c.g....UG.=
+    0040 - 68 79 e8 a6 36 33 3f 00-90 a2 5a 77 94 f0 1d 0f   hy..63?...Zw....
+    0050 - 91 76 e3 99 38 aa b0 6e-9d 21 f2 e9 f0 52 5c 7a   .v..8..n.!...R\z
+    0060 - 6c 9f e7 32 2f 31 ad ed-a5 ca 81 1b 37 cb e2 49   l..2/1......7..I
+    0070 - 26 c1 d7 1b bb 51 ce 62-7d 10 53 c0 61 b3 c6 59   &....Q.b}.S.a..Y
+    0080 - 50 79 19 a6 d1 0a 5d e7-18 a3 22 2f 7b b8 6d ba   Py....]..."/{.m.
+    0090 - c5 15 c9 b4 6a 61 6d fb-ce 53 9b de ff c8 ca 1e   ....jam..S......
+    00a0 - 1b 57 eb 1c 00 99 ab 16-19 a7 02 2d 68 27 bf 52   .W.........-h'.R
+    00b0 - 81 c0 76 45 45 85 b1 63-ca c8 7e df 2b f2 3f 44   ..vEE..c..~.+.?D
+    00c0 - fb cb 70 2d 9c b3 64 f7-27 57 69 18 7f 39 28 70   ..p-..d.'Wi..9(p
+    00d0 - ff 95 57 26 9e 03 65 4c-b9 52 a2 10 5d b9 9b e6   ..W&..eL.R..]...
+    00e0 - fb 05 17 b0 ab 04 8b f2-3c d8 d4 4a 0f 90 47 2d   ........<..J..G-
+
+    Start Time: 1763726690
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK

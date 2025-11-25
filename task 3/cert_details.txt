@@ -1,0 +1,93 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            0a:d8:93:ba:fa:68:b0:b7:fb:7a:40:4f:06:ec:af:9a
+        Signature Algorithm: ecdsa-with-SHA384
+        Issuer: C=US, O=DigiCert Inc, CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1
+        Validity
+            Not Before: Jan 15 00:00:00 2025 GMT
+            Not After : Jan 15 23:59:59 2026 GMT
+        Subject: C=US, ST=California, L=Los Angeles, O=Internet Corporation for Assigned Names and Numbers, CN=*.example.com
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:9a:48:97:84:2d:61:6c:08:c9:6a:14:a0:c8:38:
+                    80:e6:00:c0:87:fa:99:57:0e:1b:00:e2:d8:87:92:
+                    57:e7:08:fb:3c:5e:b0:d3:84:28:37:c1:24:11:8e:
+                    d3:20:71:74:bd:93:8f:4e:09:03:ce:02:3b:b0:e4:
+                    66:73:cf:af:ee
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                8A:23:EB:9E:6B:D7:F9:37:5D:F9:6D:21:39:76:9A:A1:67:DE:10:A8
+            X509v3 Subject Key Identifier: 
+                F0:C1:6A:32:0D:EC:DA:C7:EA:8F:CD:0D:6D:19:12:59:D1:BE:72:ED
+            X509v3 Subject Alternative Name: 
+                DNS:*.example.com, DNS:example.com
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.2
+                  CPS: http://www.digicert.com/CPS
+            X509v3 Key Usage: critical
+                Digital Signature, Key Agreement
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://crl3.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crl
+
+                Full Name:
+                  URI:http://crl4.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crl
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.digicert.com
+                CA Issuers - URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 0E:57:94:BC:F3:AE:A9:3E:33:1B:2C:99:07:B3:F7:90:
+                                DF:9B:C2:3D:71:32:25:DD:21:A9:25:AC:61:C5:4E:21
+                    Timestamp : Jan 15 01:01:25.319 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:43:02:1F:24:17:0F:5A:4C:7C:D2:29:3B:B8:B6:16:
+                                E8:E1:AF:35:8B:C9:E0:D9:8E:47:64:57:73:DB:AF:88:
+                                53:C7:E9:02:20:52:DB:AE:51:E9:C7:21:3E:54:35:62:
+                                5F:7C:10:51:AB:7D:6D:50:68:BB:64:34:D2:AE:B3:34:
+                                7F:8C:F5:55:AE
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 64:11:C4:6C:A4:12:EC:A7:89:1C:A2:02:2E:00:BC:AB:
+                                4F:28:07:D4:1E:35:27:AB:EA:FE:D5:03:C9:7D:CD:F0
+                    Timestamp : Jan 15 01:01:25.381 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:70:AE:E8:D8:07:85:5D:50:BE:27:FF:1B:
+                                B0:47:AB:B7:22:30:61:FC:8D:D7:21:FF:1C:B8:2F:3A:
+                                D8:95:EB:17:02:20:72:30:53:2F:0E:11:A0:E2:C6:26:
+                                D4:CB:2B:0C:65:5E:75:CC:29:13:87:8D:D1:1B:99:70:
+                                51:A6:5B:1C:09:72
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 49:9C:9B:69:DE:1D:7C:EC:FC:36:DE:CD:87:64:A6:B8:
+                                5B:AF:0A:87:80:19:D1:55:52:FB:E9:EB:29:DD:F8:C3
+                    Timestamp : Jan 15 01:01:25.401 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:20:68:58:7A:EF:21:10:DA:5C:20:9B:75:F5:
+                                EA:7D:A2:5A:31:10:14:82:36:6F:67:E9:38:DB:41:56:
+                                26:D9:55:6C:02:21:00:F9:A6:CA:A3:5C:36:2C:20:46:
+                                F5:87:28:74:4B:C6:C1:37:73:B8:BB:6B:00:F7:38:AC:
+                                28:89:58:8D:98:3C:C2
+    Signature Algorithm: ecdsa-with-SHA384
+    Signature Value:
+        30:65:02:31:00:f9:a6:82:46:53:db:6f:e5:58:fa:ee:1a:bc:
+        fc:9a:1b:b7:ef:50:32:6a:37:c2:b0:96:b5:c3:e1:7a:6d:4f:
+        b4:0b:f8:3d:37:f8:10:3f:15:41:28:dd:d0:f5:8b:3d:fb:02:
+        30:64:63:78:e1:b2:e2:c0:5b:ba:56:b0:36:ed:5f:f4:30:c6:
+        9e:a4:36:c2:b8:8e:1d:7f:46:3b:d5:ff:6e:b4:b3:14:30:33:
+        f1:8c:ee:dd:3e:4f:4b:8f:d8:bf:98:d7:65
