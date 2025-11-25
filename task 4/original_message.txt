@@ -1,0 +1,1 @@
+Hello Bob. This message is signed and encrypted.
