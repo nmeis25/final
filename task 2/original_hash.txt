@@ -1,0 +1,1 @@
+SHA2-256(alice_message.txt)= 6bcc6a6ce8db011450b91b9b716457e1035ed1e4d7cfa53b3f064877d5cf1f1b
