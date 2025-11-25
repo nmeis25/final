@@ -1,0 +1,59 @@
+Task 1 – Hybrid Encryption Flow (RSA + AES)
+
+1.  Overview This task demonstrates a hybrid encryption scheme using:
+
+-   AES-256-GCM for message encryption
+-   RSA-2048 OAEP for AES key encryption
+
+B generates RSA keys, A encrypts the message with AES, then
+encrypts the AES key with RSA. B decrypts the AES key and then
+decrypts the message.
+
+2.  Steps Step 1 — B Generates RSA Key Pair Two files are created:
+
+-   private.pem
+-   public.pem
+
+RSA keys are used only to encrypt & decrypt the AES key, not the whole message.
+
+Step 2 — A Prepares Message A creates the plaintext message.
+
+message text: Final exam.
+
+This message will NOT be encrypted with RSA.
+Instead, AES is used because:
+
+AES is extremely fast
+AES has no size limitations
+AES-GCM provides both confidentiality + integrity
+
+
+Step 3 — A Generates AES Key
+A generates a random 32-byte AES-256 key and a 12-byte nonce for GCM.
+
+Step 4 — A Encrypts Message With AES-GCM AES
+
+Step 5 — A Encrypts AES Key Using RSA-OAEP 
+B’s RSA public key encrypts the AES key using RSA-OAEP with SHA-256.
+Output:
+aes_key_encrypted.bin
+
+Step 6 — B Decrypts the AES Key 
+B uses his private key to recover the AES key.
+
+Step 7 — B Decrypts Message Using AES-GCM (key, nonce, tag),
+
+B decrypts the ciphertext and verifies the tag.
+
+3.  Security Benefits
+
+-   Confidentiality: AES-256-GCM
+-   Integrity: GCM authentication tag
+-   Secure Key Exchange: RSA-OAEP
+-   Forward secrecy per-message AES key
+-   Performance: AES handles the message, RSA handles only the key
+
+4.  Output Files
+ private.pem public.pem encrypted_message.bin aes_key_encrypted.bin aes_key  decrypted_message.txt message.txt
+
+5.  Conclusion Hybrid encryption combines RSA-OAEP for secure key exchange and AES-256-GCM for fast, authenticated encryption. This is the same design used in TLS, PGP, and secure messaging systems.
